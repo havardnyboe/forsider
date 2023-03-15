@@ -2,41 +2,67 @@
   {
     "id": "aftenposten",
     "src": "https://www.buyandread.com/static/thumbnail/aftenposten_morgen/aftenposten_morgen-xlarge.jpg",
-    "alt": "Aftenposten"
+    "alt": "Aftenposten",
+    "site": "https://www.aftenposten.no/nyheter/"
   },
   {
     "id": "dagensnaringsliv",
     "src": "https://www.buyandread.com/static/thumbnail/dagensnaringsliv/dagensnaringsliv-xlarge.jpg",
-    "alt": "Dagens Næringsliv"
+    "alt": "Dagens Næringsliv",
+    "site": "https://www.dn.no/nyheter"
   },
   {
     "id": "klassekampen",
     "src": "https://www.buyandread.com/static/thumbnail/klassekampen/klassekampen-xlarge.jpg",
-    "alt": "Klassekampen"
+    "alt": "Klassekampen",
+    "site": "https://klassekampen.no/"
   },
   {
     "id": "verdensgang",
     "src": "https://www.buyandread.com/static/thumbnail/verdensgang/verdensgang-xlarge.jpg",
-    "alt": "VG"
+    "alt": "VG",
+    "site": "https://www.vg.no/nyheter/"
   },
   {
     "id": "dagbladet",
     "src": "https://www.buyandread.com/static/thumbnail/dagbladet/dagbladet-xlarge.jpg",
-    "alt": "Dagbladet"
+    "alt": "Dagbladet",
+    "site": "https://www.dagbladet.no/nyheter/"
   },
   {
     "id": "vartland",
     "src": "https://www.buyandread.com/static/thumbnail/vartland/vartland-xlarge.jpg",
-    "alt": "Vårt Land"
+    "alt": "Vårt Land",
+    "site": "https://www.vl.no/nyheter/"
   },
   {
     "id": "adresseavisen",
     "src": "https://www.buyandread.com/static/thumbnail/adresseavisen/adresseavisen-xlarge.jpg",
-    "alt": "Adresseavisen"
+    "alt": "Adresseavisen",
+    "site": "https://www.adressa.no/"
+  },
+  {
+    "id": "dagogtid",
+    "src": "https://www.buyandread.com/static/thumbnail/dagogtid/dagogtid-xlarge.jpg",
+    "alt": "Dag og Tid",
+    "site": "https://www.dagogtid.no/"
   },
   {
     "id": "varden",
     "src": "https://www.buyandread.com/static/thumbnail/varden/varden-xlarge.jpg",
-    "alt": "Varden"
+    "alt": "Varden",
+    "site": "https://www.varden.no/nyheter/"
+  },
+  {
+    "id": "telemarksavisa",
+    "src": "https://www.e-pages.dk/ta_no/teasers/medium.jpg",
+    "alt": "Telemarksavisa",
+    "site": "https://www.ta.no/nyheter"
+  },
+  {
+    "id": "porsgrunnsdagblad",
+    "src": "https://www.e-pages.dk/porsgrunnsdagblad/teasers/medium.jpg",
+    "alt": "Porsgrunns Dagblad",
+    "site": "https://www.pd.no/nyheter"
   }
 ]
