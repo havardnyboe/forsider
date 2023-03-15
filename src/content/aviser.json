@@ -1,0 +1,42 @@
+[
+  {
+    "id": "aftenposten",
+    "src": "https://www.buyandread.com/static/thumbnail/aftenposten_morgen/aftenposten_morgen-xlarge.jpg",
+    "alt": "Aftenposten"
+  },
+  {
+    "id": "dagensnaringsliv",
+    "src": "https://www.buyandread.com/static/thumbnail/dagensnaringsliv/dagensnaringsliv-xlarge.jpg",
+    "alt": "Dagens Næringsliv"
+  },
+  {
+    "id": "klassekampen",
+    "src": "https://www.buyandread.com/static/thumbnail/klassekampen/klassekampen-xlarge.jpg",
+    "alt": "Klassekampen"
+  },
+  {
+    "id": "verdensgang",
+    "src": "https://www.buyandread.com/static/thumbnail/verdensgang/verdensgang-xlarge.jpg",
+    "alt": "VG"
+  },
+  {
+    "id": "dagbladet",
+    "src": "https://www.buyandread.com/static/thumbnail/dagbladet/dagbladet-xlarge.jpg",
+    "alt": "Dagbladet"
+  },
+  {
+    "id": "vartland",
+    "src": "https://www.buyandread.com/static/thumbnail/vartland/vartland-xlarge.jpg",
+    "alt": "Vårt Land"
+  },
+  {
+    "id": "adresseavisen",
+    "src": "https://www.buyandread.com/static/thumbnail/adresseavisen/adresseavisen-xlarge.jpg",
+    "alt": "Adresseavisen"
+  },
+  {
+    "id": "varden",
+    "src": "https://www.buyandread.com/static/thumbnail/varden/varden-xlarge.jpg",
+    "alt": "Varden"
+  }
+]
