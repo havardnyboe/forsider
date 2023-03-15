@@ -1,23 +1,39 @@
-import { MouseEventHandler } from "react";
+import { useState } from "react";
 import { forside } from "./Forside";
 import style from "./Nav.module.sass";
 
 interface Nav {
-  onClick: MouseEventHandler<HTMLElement>;
   links: Array<forside>;
 }
 
-function Nav({ onClick, links }: Nav) {
+function Nav({ links }: Nav) {
+  const [navHidden, setNavHidden] = useState(true);
+
+  function toggleNav() {
+    setNavHidden((prev) => !prev);
+    const checkbox: any = document.getElementById("toggleNav");
+    checkbox.checked = navHidden;
+  }
   return (
-    <nav className={style.nav} onClick={onClick}>
-      <ul>
-        {links.map((side: forside) => (
-          <li key={side.id}>
-            <a href={"#" + side.id}>{side.alt}</a>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <>
+      {navHidden ? null : (
+        <nav className={style.nav} onClick={toggleNav}>
+          <ul>
+            {links.map((side: forside) => (
+              <li key={side.id}>
+                <a href={"#" + side.id}>{side.alt}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+      <input type="checkbox" className={style.toggleNavCheck} id="toggleNav" onClick={toggleNav} />
+      <label className={style.toggleNav} htmlFor="toggleNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </>
   );
 }
 
